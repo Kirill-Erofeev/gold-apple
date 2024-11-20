@@ -121,8 +121,8 @@ class GoldAppleParser():
         
         # urls = ['https://goldapple.ru/lajm?p=5', 'https://goldapple.ru/aptechnaja-kosmetika?p=5']
 
-        # random.shuffle(urls)
-        # urls = urls[:6000]
+        random.shuffle(urls)
+        # urls = urls[:3000]
         # print(urls[:11])
         
         async with aiohttp.ClientSession() as session:
